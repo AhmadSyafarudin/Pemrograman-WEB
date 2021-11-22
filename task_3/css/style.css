@@ -1,0 +1,92 @@
+header {
+    background-color: #04AA6D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+
+body {
+    background-color:rgba(213, 213, 214, 0.712);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.daftar {
+    margin: 30px 25%;
+}
+
+table {
+    margin: 30px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+td{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+td:nth-child(3){
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(245, 245, 245);
+}
+
+tr:hover {
+    background-color: teal;
+    color: white;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text], input[type=number], input[type=email]{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px auto;
+    padding: 12px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+input[type=submit] {
+    width: 107%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px auto;
+    padding: 12px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: #04AA6D;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(16, 206, 133);
+    color: black;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+
+
